@@ -1,0 +1,52 @@
+header {
+    background-color: bisque;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    font: 1em sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: fit-content;
+    max-width: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px lightslategray;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal_data-container, .Extras-container {
+    background: linear-gradient( to bottom,rgba(255,255,255,.9), rgba(255,255,255,.7)), url("sand1.jpg");
+}
+
+.personal_data {
+    opacity: 2.0;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+
+footer {
+    background-color: bisque;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
